@@ -8,7 +8,10 @@ export default props =>
         <nav className="menu">
             {/* Refatorar */}
             <Link to="/">
-                <i className={`fa fa-${props.icon}`}></i> {props.title}
+                <i className={`fa fa-home`}></i> Início
+            </Link>
+            <Link to="/users">
+                <i className={`fa fa-user`}></i> Usuários
             </Link>
         </nav>
     </aside>
